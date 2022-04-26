@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-04-19 18:02:50
  * @LastEditors: Yaowen Liu
- * @LastEditTime: 2022-04-26 12:08:54
+ * @LastEditTime: 2022-04-26 14:13:27
  * @FilePath: /my-first-app/nuxt.config.js
  */
 export default {
@@ -62,5 +62,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  generate: {
+    subFolders: false
   }
+  
 }
